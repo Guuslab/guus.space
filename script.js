@@ -6,7 +6,3 @@ function openMedia(element) {
     }
   }
 
-  function playVideo() {
-    var video = document.getElementById('mijnVideo');
-    video.play();
-  }
