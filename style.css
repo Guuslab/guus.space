@@ -4,18 +4,18 @@
 
 body {
     margin: 0px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     background-color: #000000;
+    box-shadow: inset 0px 0px 70px -15px var(--primery);
 }
 
 .logo {
     width: 70px;
-    margin-bottom: 20px;
+    margin: 30px;
 }
 
 .grid {
+    padding: 30px;
+    padding-top: 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
