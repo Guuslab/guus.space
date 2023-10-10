@@ -1,9 +1,13 @@
+:root {
+    --primery:#ff0043;
+}
+
 body {
     margin: 0px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: black;
+    background-color: #000000;
 }
 
 .logo {
@@ -24,9 +28,9 @@ body {
     overflow: hidden;
     position: relative;
     border-radius: 30px;
-    border: 3pt solid #ff0043;
-    box-shadow: 0px 0px 40px -10px #ff0043;
-    transition: all cubic-bezier(0.5, 1, 0, 3) 500ms;
+    border: 3pt solid var(--primery);
+    box-shadow: 0px 0px 40px -10px var(--primery);
+    transition: all cubic-bezier(0.5, 0.6, 0, 3) 500ms;
 }
 
 .item:hover {
