@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189 96.72">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #f29840;
-        stroke-width: 0px;
-      }
-    </style>
-  </defs>
-  <g id="Laag_1-2" data-name="Laag 1">
-    <path class="cls-1" d="M189,96.71C141.41,72.06,63.88,48.36,0,48.36c63.88,0,141.41-23.71,189-48.36-18.19,11.31-54.64,22.92-54.88,48.36.24,25.44,36.71,37.05,54.88,48.36h0Z"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_2_00000177485870391368397280000015605355117309247398_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 189 96.7"
+	 style="enable-background:new 0 0 189 96.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F29840;}
+</style>
+<g id="Laag_1-2">
+	<path class="st0" d="M189,96.7C141.4,72.1,63.9,48.4,0,48.4c63.9,0,141.4-23.7,189-48.4c-18.2,11.3-54.6,22.9-54.9,48.4
+		C134.4,73.8,170.8,85.4,189,96.7L189,96.7L189,96.7z"/>
+</g>
 </svg>
