@@ -60,7 +60,7 @@
     }
 
     global.onload = function() {
-        var artxElements = document.querySelectorAll(constants.artxSelector);
+        var artxElements = document.querySelectorAll(' ' + constants.artxSelector);
         artxElements.forEach(function(artx, index) {
             artx.style.display = constants.blockDisplay;
             artx.style.shapeRendering = 'crispEdges'; // Add this line
