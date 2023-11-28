@@ -59,10 +59,9 @@
         return rect;
     }
 
-    function processArtxElements() {
+    global.onload = function() {
         var artxElements = document.querySelectorAll(constants.artxSelector);
         artxElements.forEach(function(artx, index) {
-            if (artx.hasAttribute('processed')) return; // Skip if already processed
             artx.style.display = constants.blockDisplay;
             artx.style.shapeRendering = 'crispEdges'; // Add this line
             var data = artx.textContent.trim().split(',');
@@ -84,11 +83,6 @@
             }
             artx.innerHTML = '';
             artx.appendChild(svg);
-            artx.setAttribute('processed', true); // Mark as processed
         });
-    }
-
-    global.onload = function() {
-        setInterval(processArtxElements, 1000); // Check every second
     };
 })(window);
