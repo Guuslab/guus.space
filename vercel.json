@@ -1,6 +1,6 @@
 {
     "cleanUrls": true,
     "env": {
-        "WEBSITE_VERSION": "1.0.0"
+        "WEBSITE_VERSION": "1.0.1"
     }
 }
