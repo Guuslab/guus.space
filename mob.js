@@ -23,24 +23,24 @@ if (/Mobi/.test(navigator.userAgent) && !/iPad/.test(navigator.userAgent)) {
 }
 
 
-window.addEventListener('resize', redrawCanvas, false);
+// window.addEventListener('resize', redrawCanvas, false);
 
-function redrawCanvas() {
-    var canvas = document.getElementById('space');
-    var context = canvas.getContext('2d');
+// function redrawCanvas() {
+//     var canvas = document.getElementById('space');
+//     var context = canvas.getContext('2d');
 
-    // Clear the canvas
-    context.clearRect(0, 0, canvas.width, canvas.height);
+//     // Clear the canvas
+//     context.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Set the canvas dimensions to the new window dimensions
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+//     // Set the canvas dimensions to the new window dimensions
+//     canvas.width = window.innerWidth;
+//     canvas.height = window.innerHeight;
 
-    // Calculate the new center of the canvas
-    var centerX = canvas.width / 2;
-    var centerY = canvas.height / 2;
+//     // Calculate the new center of the canvas
+//     var centerX = canvas.width / 2;
+//     var centerY = canvas.height / 2;
 
-    // Redraw the contents of the canvas
-    // (replace this with your own drawing code)
-    drawStuff(context, centerX, centerY);
-}
+//     // Redraw the contents of the canvas
+//     // (replace this with your own drawing code)
+//     drawStuff(context, centerX, centerY);
+// }

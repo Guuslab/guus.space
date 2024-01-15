@@ -40,6 +40,29 @@ function initializeStars(){
   }
 }
 
+function repositionStars() {
+    var canvas = document.getElementById('space');
+
+    // Calculate the new center of the canvas
+    var newCenterX = canvas.width / 2;
+    var newCenterY = canvas.height / 2;
+
+    // Calculate the shift in the center of the canvas
+    var shiftX = newCenterX - centerX;
+    var shiftY = newCenterY - centerY;
+
+    // Update the global center coordinates
+    centerX = newCenterX;
+    centerY = newCenterY;
+
+    // Loop through each star
+    for (var i = 0; i < stars.length; i++) {
+        // Update the position of the star based on the shift in the center of the canvas
+        stars[i].x += shiftX;
+        stars[i].y += shiftY;
+    }
+}
+
 function moveStars(){
   for(i = 0; i < numStars; i++){
     star = stars[i];
@@ -60,9 +83,11 @@ function drawStars(){
     canvas.height = window.innerHeight;
     initializeStars();
   }
-//   if(warp==0)
-  {c.fillStyle = "rgba(0,0,0,1)";
-  c.fillRect(0,0, canvas.width, canvas.height);}
+
+  // Draw a semi-transparent black rectangle over the whole canvas
+  c.fillStyle = "rgba(0,0,0,0.5)";
+  c.fillRect(0,0, canvas.width, canvas.height);
+
   c.fillStyle = "rgba(255, 255, 255, "+radius+")";
   for(i = 0; i < numStars; i++){
     star = stars[i];
@@ -80,3 +105,23 @@ function drawStars(){
 }
 
 executeFrame();
+
+window.addEventListener('resize', redrawCanvas, false);
+
+function redrawCanvas() {
+    var canvas = document.getElementById('space');
+    var context = canvas.getContext('2d');
+
+    // Clear the canvas
+    context.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Set the canvas dimensions to the new window dimensions
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Reposition the stars
+    repositionStars();
+
+    // Redraw the contents of the canvas
+    drawStars();
+}
