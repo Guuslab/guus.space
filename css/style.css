@@ -35,6 +35,135 @@
     --font: "Kanit";
 }
 
+/* oneee ik moet iets fixen */
+/* * { border: 1px solid red !important;} */
+
 body {
     background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+.space-text {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-100%);
+    left: 0;
+    right: 0;
+    font-family: var(--font-line);
+    font-size: 10vw;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 
+    0 0 5px var(--white),
+    0 0 10px var(--white),
+    0 0 45px var(--white),
+    0 0 50px var(--white); 
+    z-index: 1;
+}
+
+#space {
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .space-text {
+        font-size: 8vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer ----------------------------------- */
+
+footer {
+    border-top: solid 1px var(--white-10);
+    margin-top: 100px;
+    background-color: var(--black);
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.footer-logo img {
+    width: 50vw;
+    height: 10vw;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-links ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.footer-links ul li a:hover {
+    color: var(--white-50);
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .footer-links ul li a {
+        font-size: 1em;
+    }
 }
