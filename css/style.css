@@ -36,5 +36,5 @@
 }
 
 body {
-    background-color: black;
+    background-color: var(--white);
 }
