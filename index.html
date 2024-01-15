@@ -3,86 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Guus.space</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/mob-nav.css">
   <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
 </head>
 <body>
-  <img class="logo" src="assets/logo/logo.svg" alt="logo">
-  
-    <div class="grid">
-
-        <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/logo-1.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/logo-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/lab-1.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/lab-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/mountan-1.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/mountan-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/spiral-1.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/spiral-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/waves-1.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/waves-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <video playsinline autoplay muted loop>
-              <source src="assets/compres/intro.mp4" type="video/mp4">
-            </video>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/lines.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/lines-2.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <video playsinline autoplay muted loop>
-              <source src="assets/compres/guuslab.mp4" type="video/mp4">
-            </video>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/planet-1-color.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/planet-1-surfice-color.jpg" alt="iets"></img>
-          </div>
-
-          <div class="item" onclick="openMedia(this)">
-            <img src="assets/compres/planet-2-color.jpg" alt="iets"></img>
-          </div>
-          </div>
+  <header>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <a href="/">
+        <svg class="space-logo logo" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 500.39">
+          <path class="logo-top" d="M0,0h235.06c147.73,0,155.79,211.45,8.3,219.63-4.47.25-8.97.37-13.51.37C102.91,220,0,121.5,0,0Z"/>
+          <path class="logo-bottom" d="M350,500.39H114.94c-147.73,0-155.79-211.45-8.3-219.63,4.47-.25,8.97-.37,13.51-.37,126.94,0,229.85,98.5,229.85,220Z"/>
+        </svg>
+      </a>
+     <ul class="menu-items">
+        <li><a class="item1-on" href="/">Home</a></li>
+        <li><a class="item2" href="/about">About</a></li>
+        <li><a class="item3" href="/pro">Projecten</a></li>
+        <li><a class="item4" href="/lab">The Lab</a></li>
+      </ul>
+    </div>
+  </header>
 
 <script src="script.js"></script>
 </body>

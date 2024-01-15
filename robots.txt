@@ -1,0 +1,21 @@
+# OMG the robots.txt for http://guuslab.com
+User-agent: baidu
+crawl-delay: 1
+
+User-agent: *
+Disallow: /animations/*
+Disallow: /assets/*
+Disallow: /css/*
+Disallow: /files/*
+Disallow: /guus/*
+Disallow: /icon/*
+Disallow: /libraries/*
+Disallow: /logo/*
+Disallow: /map/*
+Disallow: /mono/*
+
+
+Allow: /bag/*
+Allow: /guuslab/*
+Allow: /project/*
+Allow: /thelab/*
