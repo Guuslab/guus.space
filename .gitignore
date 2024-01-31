@@ -1,0 +1,4 @@
+node_modules/*
+.next/*
+.DS_Store
+# git rm -r --cached . && git add . && git commit -m "Remove all .DS_Store files"

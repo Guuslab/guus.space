@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;700&display=swap');
+
+:root{
+    --none: #00000000;
+    --white: #ffffff;
+    --white-70: #ffffffba;
+    --white-50: #ffffff85;
+    --white-10: #ffffff30;
+    --black: #000000;
+    --black-70: #000000ba;
+    --black-50: #00000085;
+    --black-10: #00000030;
+    --gray: #4f4f4f;
+    --gray-70: #4f4f4fba;
+    --gray-50: #4f4f4f85;
+    --gray-10: #4f4f4f30;
+    --rood: #EF5343;
+    --rood-50: #ef534385;
+    --orange: #F29841;
+    --orange-50: #F2984185;
+    --geel: #EDD045;
+    --geel-50: #EDD04585;
+    --groen: #BBE555;
+    --groen-50: #BBE55585;
+    --licht-blouw: #A6D9D8;
+    --licht-blouw-50: #A6D9D885;
+    --donker-blouw: #4374EF;
+    --donker-blouw-50: #4374EF85;
+    --paars: #BA47EA;
+    --paars-50: #BA47EA85;
+
+    --yunlar-groen: #8cbd2a;
+    --yunlar-groen-fl: #6943B8;
+    --yunlar-blouw: #8084ba;
+    --yunlar-blouw-fl: #7E7B49;
+    --yunlar-rood: #e02b65;
+    --yunlar-rood-fl: #31C199;
+    --yunlar-orange: #ed7c19;
+    --yunlar-orange-fl: #227DC8;
+    --yunlar-grijs: #2f2f2f;
+    --yunlar-grijs-fl: #D0D0D0;
+
+    --font-line: 'juicy-simple-inline';
+    --font-normal: 'juicy-simple-standard';
+    --font-simple: "juicy-simple-fill";
+    --font: "Kanit";
+}
+
+/* oneee ik moet iets fixen */
+/* * { border: 1px solid red !important;} */
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+/* Voor browsers die de ::selection pseudo-klasse ondersteunen */
+::selection {
+    background: var(--white); /* verander dit naar de gewenste achtergrondkleur */
+    color: var(--black); /* verander dit naar de gewenste tekstkleur */
+}
+
+/* Voor Firefox */
+::-moz-selection {
+    background: var(--white); /* verander dit naar de gewenste achtergrondkleur */
+    color: var(--black); /* verander dit naar de gewenste tekstkleur */
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--black);
+}
+
+.space-text {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    font-family: var(--font);
+    font-size: 10vw;
+    font-weight: 900;
+    text-align: center;
+    color: var(--white);
+    -webkit-text-stroke: .3vw var(--black);
+    /* text-stroke: 2px var(--black); */
+    z-index: 1;
+    mix-blend-mode: difference;
+    filter: invert(1);
+}
+
+/* Voor browsers die de ::selection pseudo-klasse ondersteunen */
+.space-text::selection {
+    background: #888; /* verander dit naar de gewenste achtergrondkleur */
+    color: var(--black); /* verander dit naar de gewenste tekstkleur */
+}
+
+/* Voor Firefox */
+.space-text::-moz-selection {
+    background: #888; /* verander dit naar de gewenste tekstkleur */
+    color: var(--black); /* verander dit naar de gewenste tekstkleur */
+}
+
+#space {
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .space-text {
+        font-size: 8vw;
+    }
+}
+
+/* 
+ 8640 
+ 9870 
+ 3200
+ 4350
+ */
+
+.baground img {
+    width: 100px;  /* Verander dit naar de gewenste breedte */
+    height: 100px; /* Verander dit naar de gewenste hoogte */
+    object-fit: cover;
+    object-position: 50% 50%;
+}
