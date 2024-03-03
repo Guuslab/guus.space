@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 256.8 131.3">
+<svg id="uuid-4292329a-5ee7-403c-827d-7a989882455c" data-name="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.12 142.73">
   <defs>
     <style>
-      .cls-1 {
+      .uuid-889b5f91-cadd-4a5b-b163-5cbac664ffb5 {
+        fill: #000;
         stroke-width: 0px;
       }
     </style>
   </defs>
-  <path class="cls-1" d="M168,65.7c.2-25.4,36.7-37,54.9-48.4-47.6,24.6-125.1,48.4-189,48.4,63.8,0,141.3,23.7,188.9,48.3-18.2-11.3-54.5-22.9-54.8-48.3Z"/>
+  <g id="uuid-257524f3-af4b-4399-b650-0e46e7aa4529" data-name="logo">
+    <path class="uuid-889b5f91-cadd-4a5b-b163-5cbac664ffb5" d="M170.58,71.37c0-26.93,36.85-43.94,56.69-56.69-56.69,34.02-113.39,56.69-198.43,56.69,85.04,0,141.73,22.68,198.43,56.69-19.84-12.76-56.69-29.76-56.69-56.69h0Z"/>
+  </g>
 </svg>

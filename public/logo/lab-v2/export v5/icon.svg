@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-83c96c1e-880b-4f0d-a84b-d6b154c2d980" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125">
+  <defs>
+    <style>
+      .uuid-15fb1df6-b5c9-4f24-82b9-e5fcb70f00d3 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 25px;
+      }
+    </style>
+  </defs>
+  <path class="uuid-15fb1df6-b5c9-4f24-82b9-e5fcb70f00d3" d="M62.5,112.5v-25c0-13.81,11.19-25,25-25h0c13.81,0,25,11.19,25,25h0c0,13.81-11.19,25-25,25h-50c-13.81,0-25-11.19-25-25v-50c0-13.81,11.19-25,25-25h75"/>
+</svg>
