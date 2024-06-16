@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-linecap: square;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-9 {
+        opacity: .5;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-width: .5px;
+      }
+
+      .cls-2 {
+        stroke-width: .25px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 5;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 5.01 5.01;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 4.97 4.97;
+      }
+
+      .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 4.99 4.99;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 4.91 4.91;
+      }
+
+      .cls-8 {
+        opacity: .1;
+        stroke-width: 50px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <rect class="cls-10" x="0" y="0" width="500" height="500"/>
+    <path class="cls-8" d="M250,350v-50c0-27.62,22.38-50,50-50h0c27.62,0,50,22.38,50,50h0c0,27.62-22.38,50-50,50h-50c-55.23,0-100-44.77-100-100h0c0-55.23,44.77-100,100-100h100"/>
+    <line class="cls-1" x1="150" y1="50" x2="150" y2="450"/>
+    <line class="cls-1" x1="350" y1="50" x2="350" y2="450"/>
+    <line class="cls-1" x1="50" y1="150" x2="450" y2="150"/>
+    <line class="cls-1" x1="50" y1="350" x2="450" y2="350"/>
+    <line class="cls-1" x1="50" y1="250" x2="450" y2="250"/>
+    <line class="cls-1" x1="250" y1="450" x2="250" y2="50"/>
+    <g class="cls-9">
+      <circle class="cls-7" cx="350" cy="150" r="25"/>
+    </g>
+    <g class="cls-9">
+      <circle class="cls-7" cx="300" cy="300" r="25"/>
+    </g>
+    <g class="cls-9">
+      <circle class="cls-4" cx="300" cy="300" r="75"/>
+    </g>
+    <g class="cls-9">
+      <circle class="cls-5" cx="250" cy="250" r="125"/>
+    </g>
+    <line class="cls-2" x1="100" y1="125" x2="400" y2="125"/>
+    <line class="cls-2" x1="100" y1="175" x2="400" y2="175"/>
+    <line class="cls-2" x1="100" y1="225" x2="400" y2="225"/>
+    <line class="cls-2" x1="100" y1="275" x2="400" y2="275"/>
+    <line class="cls-2" x1="100" y1="325" x2="400" y2="325"/>
+    <line class="cls-2" x1="100" y1="375" x2="400" y2="375"/>
+    <line class="cls-2" x1="125" y1="400" x2="125" y2="100"/>
+    <line class="cls-2" x1="175" y1="400" x2="175" y2="100"/>
+    <line class="cls-2" x1="225" y1="400" x2="225" y2="100"/>
+    <line class="cls-2" x1="275" y1="400" x2="275" y2="100"/>
+    <line class="cls-2" x1="325" y1="400" x2="325" y2="100"/>
+    <line class="cls-2" x1="375" y1="400" x2="375" y2="100"/>
+    <circle class="cls-3" cx="300" cy="300" r="50"/>
+    <g class="cls-9">
+      <circle class="cls-6" cx="250" cy="250" r="100"/>
+    </g>
+    <g class="cls-9">
+      <circle class="cls-4" cx="250" cy="250" r="75"/>
+    </g>
+    <line class="cls-1" x1="300" y1="50" x2="300" y2="450"/>
+    <line class="cls-1" x1="50" y1="300" x2="450" y2="300"/>
+  </g>
+</svg>
