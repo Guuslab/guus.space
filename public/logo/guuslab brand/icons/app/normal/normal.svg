@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024.7 1024.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 107.6px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 45)  -->
+  <g>
+    <g id="Layer_1">
+      <rect class="cls-1" width="1024.7" height="1024.7"/>
+      <g id="Light">
+        <path id="Brandmark" class="cls-2" d="M512.3,727.5v-107.6c0-59.4,48.2-107.6,107.6-107.6h0c59.4,0,107.6,48.2,107.6,107.6h0c0,59.4-48.2,107.6-107.6,107.6h-107.6c-118.9,0-215.2-96.3-215.2-215.2h0c0-118.9,96.4-215.2,215.2-215.2h215.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
